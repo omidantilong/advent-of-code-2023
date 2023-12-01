@@ -1,0 +1,29 @@
+{
+    "name": "advent-of-code-2023",
+    "version": "1.0.0",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/minimist": "^1.2.5",
+        "dedent": "^1.5.1",
+        "dotenv": "^16.3.1",
+        "fs-extra": "^11.2.0",
+        "picocolors": "^1.0.0",
+        "prettier": "^3.1.0",
+        "tsx": "^4.6.1",
+        "typescript": "^5.3.2",
+        "vitest": "^0.34.6"
+    },
+    "scripts": {
+        "test": "vitest",
+        "exec": "tsx utils/exec.ts",
+        "create": "tsx utils/create.ts",
+        "get": "tsx utils/get.ts"
+    },
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
